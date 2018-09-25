@@ -51,7 +51,7 @@ app.get('/authorize', (req, res) => {
 	* response_type: code
 	* scope: foo
 	* client_id: <client_id>
-	* redirect_url: <redirect_uris>
+	* redirect_uri: <redirect_uris>
 	HTTP trace:
 
 	HTTP/1.1 302 Moved Temporarily
