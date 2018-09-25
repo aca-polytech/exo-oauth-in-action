@@ -49,7 +49,7 @@ app.get('/authorize', (req, res) => {
 
 	TODO: redirect to the authorization server with parameters:
 	* response_type: code
-	* scope: foo&client
+	* scope: foo
 	* client_id: <client_id>
 	* redirect_url: <redirect_uris>
 	HTTP trace:
