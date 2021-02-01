@@ -16,8 +16,8 @@ app.set('views', 'files/client')
 
 // authorization server information
 const authServer = {
-	authorizationEndpoint: 'http://oauth-authorizationserver.igpolytech.fr/authorize',
-	tokenEndpoint: 'http://oauth-authorizationserver.igpolytech.fr/token'
+	authorizationEndpoint: 'http://oauth-authorizationserver.cluster-ig5.igpolytech.fr/authorize',
+	tokenEndpoint: 'http://http://oauth-authorizationserver.cluster-ig5.igpolytech.fr/token'
 }
 
 // client information
