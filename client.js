@@ -35,7 +35,7 @@ const client = {
 	"redirect_uris": ["http://localhost:9000/callback"]
 }
 
-const protectedResource = 'http://oauth-protectedresource.igpolytech.fr/resource'
+const protectedResource = 'http://oauth-protectedresource.cluster-ig5.igpolytech.fr/resource'
 
 let state, access_token, scope = null
 
